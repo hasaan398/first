@@ -1,0 +1,603 @@
+html {
+    scroll-behavior:smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+   
+  
+    background: linear-gradient(#ffffffff, rgb(255, 253, 249));
+}
+.navbar{
+     
+    display: flex;
+    height: 40px;
+    width: 100%;
+
+}
+header {
+    background-color:#F5F5DC ;
+    overflow: hidden;
+        position: sticky;
+            top: 0;
+            display: block;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.315);
+    width: 100%;
+    height: 70px;
+    background-color: #ffffffff;
+    z-index: 1000;
+}
+.logo h1{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.logo{
+    display: flex;
+    margin-top: -15px;
+}
+nav{
+    width: 100%;
+
+}
+
+.logo-ham a {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.logo-ham a:hover{
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.logo-ham{
+    width: 100%;
+    background-color: white;
+}
+
+.logo img {
+    margin-top: 3px;
+    width: 40px;
+    height: 38px;
+
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.logo-ham{
+
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.main-menue ul li {
+    display: inline;
+    font-size: 18px;
+    margin-top: 5px;
+    margin: 5px;
+}
+
+.main-menue button{
+    font-size: 16px;
+    color: #ffffffff;
+    background-color:black;
+    padding: 7px 9px;
+    border-radius: 6px;
+    transition: 0.5s;
+    border: none;
+}
+
+.main-menue button:hover{
+    background-color:rgba(0, 0, 0, 0.671);
+    transition: 0.6s;
+}
+
+header li a{
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    color:black;
+    transition: 0.4s;
+}
+
+.main-menue li a:hover{
+    color:orangered;
+
+}
+.space{
+    margin-left: 100px;
+}
+.reduse{
+    margin-right: -65px;
+}
+.main-menue {
+    margin-top: 8px;
+}
+/*------------------------------------------CONTENT---------------------------------------*/
+.main{
+    margin-left: 50px;
+}
+.LANDING-SECTION{
+    margin: 5px;
+}
+.main img {
+    background-size: cover;
+    width: 450px;
+    border-radius: 8px;
+}
+.HOME-SECTION h1{
+    font-weight: 700;
+    width: 590px;
+}
+.HOME-SECTION{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 595px;
+}
+.HOME-SECTION p{
+    width: 600px;
+    margin-top: 20px;
+}
+.btn-light {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+    background-color: #4891ff;
+    padding: 7px;
+    border-radius: 7px;
+    transition: 0.6s;
+    border: 1px solid #4891ff;
+}
+.btn-light:hover{
+    transition: 0.9s;
+    color: white;
+    background-color: #4891ffbe;
+}
+strong{
+    font-weight: 600;
+}
+b{
+   
+    font-weight: 600;
+}
+.b2{
+
+    font-weight: 1000;
+}
+br{
+    margin-top: 100px;
+}
+.ABOUT-SECTION {
+    margin-top: 100px;
+}
+.dark{
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    padding: 7px;
+        font-size: 17.7px;
+            font-weight: 700;
+    border: 1px solid black;
+    /* box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .67); */
+
+}   
+.dark:hover{
+    background-color: rgba(0, 0, 0, 0.685);
+    transition: 0.9s;
+}
+.bg-about{
+    background-color: rgb(243, 245, 250);
+}
+.ABOUT-SECTION h1 {
+    text-align: center;
+    font-weight: 600;
+    position: relative; /* Needed to position the pseudo-element */
+    display: inline-block; /* Keeps the h1 inline for the border effect */
+}
+
+.ABOUT-SECTION h1::after {
+    content: ''; /* Creates a pseudo-element for the border */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px; /* Adjust the thickness of the border */
+    background-color: #47b2e4d5; /* Choose your desired border color */
+    transition: width 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.ABOUT-SECTION h1:hover::after {
+    width: 100%; /* Expands the border fully on hover */
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
+}
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+.full{
+    width: 100%;    
+    text-align: center;
+    align-items: center;
+
+}
+.ABOUT-SECTION a:hover {
+    color:black; 
+}
+.ABOUT-SECTION h5{
+    font-weight: 700;
+}
+.background{
+    background-color: black;
+    padding-bottom: 20px;
+
+}
+
+
+.card h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card{
+   
+    width: 350px;
+    margin-top: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    height: 200px;
+    pointer-events:auto !important;
+}
+.s img{
+    align-items: center;
+    margin-top: -16px;
+    width: 30% !important;
+
+}
+.card img{
+    width: 50%;
+   
+}
+
+.card:hover{
+    transform: scale(1.08);
+
+}
+.card h3{
+    font-size:25px ;
+}
+.SERVICES-SECTION h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.main-content {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+
+.main-content p{
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+.SERVICES-SECTION{
+    margin-top: 50px;
+}
+.SERVICES-SECTION h1{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 35px;
+ 
+
+
+}
+.sel p{
+    font-size: 14px;
+}
+.sel img{
+    width: 25%;
+    height: 60px;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.SERVICES-SECTION a{
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+.CHOSSE-US-SECTION h1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.CHOSSE-US-SECTION img{
+    width: 40%;
+}
+.row{
+    margin: 0;
+}
+.d{
+    text-align: center;
+    font-weight:bolder;
+    color: black;
+    margin-top: 20px;
+}
+footer{
+        margin-left: 0;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 50px;
+
+}
+.CONTACT-SECTION{
+    margin-top: 35px;
+    font-weight: 900;
+}
+.CONTACT-SECTION h1{
+    font-weight: 900;
+}
+.CONTACT-SECTION h6{
+    font-weight: 900;
+}
+
+.CONTACT-SECTION{
+    margin-top: 60px;
+    margin-left: 20px;
+    line-height: 12px;
+}
+
+.offcanvasRightLabel h1{
+    font-weight: 900;
+}
+.offcanvas-body a{
+    font-weight:900px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.padd a:hover{
+    color:black;
+    background-color: white;
+    font-weight: 900;
+}
+.padd a{
+    font-weight: 900px;
+    padding: 7px;
+    line-height: 45px;
+}
+.copy{
+    margin-top: 50px;
+}
+.offcanvas{
+    background: black;
+    color: white;
+}
+.f a{
+    letter-spacing: 2.2px;
+}
+.g a {
+    letter-spacing: 2.8px;
+}
+.h a{
+    letter-spacing: 2.4px;
+}
+.offcanvas-header h1{
+    margin-top: 10px;
+    font-weight: 900;
+}
+.offcanvas{
+    font-weight: 900;
+}
+.fa-window-close{
+    font-size: 30px;
+    font-weight: 900;
+}
+.fa-window-close:hover{
+    color: rgb(207, 207, 207);
+}
+.copy button{
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 1px 5px 1px 5px;
+    transition: 0.3s;
+}
+.copy button:hover{
+    background-color: rgb(207, 207, 207);
+}
+b{
+    font-weight: 900;
+}
+.map iframe{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 5432px) {
+    .fa-bars {
+    display: none;
+}
+
+}
+@media only screen and (max-width: 1370px) {
+    .HOME-SECTION p{
+        width: 550px;
+    }
+    .main-img{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1175px) {
+
+ 
+        .logo{
+            margin-top: 1px;
+        }
+
+}
+
+@media only screen and (max-width: 958px) {
+    .main-menue{
+        display: none;
+      }
+    .HOME-SECTION h1{
+        width: 500px;
+        font-size: 25px;
+    }
+        .aspect{
+           margin-top: 50px;
+           margin-left: 0;
+        }
+
+        .aspect p{
+            width: 420px;
+            margin-right: 0;
+            font-size: 14px;
+        }
+        .main-img{
+            margin-left: -20px !important;
+            
+        }       
+        .fa-bars{
+            display: block;
+        }
+}
+
+@media only screen and (max-width: 685px) {
+    .aspect p{
+            width: 390px;
+        }
+
+        .aspect h1{
+            width: 400px;
+            font-size: 25px;
+        }
+        .ABOUT-SECTION img{
+            width: 200px;
+            height: 200px;
+        }
+        .main img{
+            margin-left: 0;
+            width: 300px;
+            display: flex;
+            align-items: center;
+        }
+
+
+}
+@media only screen and (max-width: 501px) {
+    .main img {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .aspect{
+            margin-left: -30px;
+        }
+        .sel img{
+            display: none !important;
+        
+        }
+        li{
+            font-size: 20px;
+        }
+        .main-content p{
+            font-size: 14px;
+        }
+        .card p{
+            font-size: 14px;
+        }
+        .card h3{
+            font-size:20px ;
+        }
+    }
+@media only screen and (max-width: 479px) {
+
+    .aspect h1{
+        width: 330px;
+        font-size: 20px;
+       
+    }
+    .aspect p{
+        width: 350px;
+    }
+
+ .logo-ham h1{
+    font-size: 20px;
+ }
+ .footer p{
+    font-size: 16px;
+ }
+ .card{
+    width: 310px;
+ }
+ .ABOUT-SECTION h5{
+    font-size: 14px;
+   
+ }
+.service p{
+    font-size: 18px;
+}
+ footer p{
+    font-size: 10px;
+    margin-right: 40px;
+ }
+
+}
+@media only screen and (max-width: 392px) {
+    .aspect p{
+        width: 270px;
+        font-size: 12px;
+    }
+    .aspect h1{
+        width: 270px;
+    }
+    .main img{
+        width: 200px;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .card{
+        width: 280px;
+    }
+
+}
